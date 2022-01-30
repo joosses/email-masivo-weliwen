@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "email-templates": "^8.0.8",
+    "express": "^4.17.1",
+    "handlebars": "^4.7.7"
   },
   "devDependencies": {
     "nodemailer": "^6.3.0",
