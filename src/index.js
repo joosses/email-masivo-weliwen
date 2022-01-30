@@ -16,5 +16,8 @@ console.log('Server on port 3000')
 sendMail({
     email: "joossesp@gmail.com",
     template: "report",
+    locals: {
+        name : "Mateh Elismar"
+    }
 
 }).then(x => console.log('mail sent'))

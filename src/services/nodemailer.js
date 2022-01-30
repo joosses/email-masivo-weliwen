@@ -38,10 +38,10 @@ module.exports = {
 
         return emailObject.send({
             template,
+            locals,
             message: {
                 to: email,
-                from: "Weliwen <ventas@Weliwen.com>",
-
+                from: "Weliwen <ventas@Weliwen.com>", 
             }
         })
     }
